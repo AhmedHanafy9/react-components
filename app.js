@@ -10,8 +10,6 @@ const App = () => {
   )
 }
 
-
-
 const GroceryList = (props) => {
   return (
     <ul>
@@ -38,7 +36,5 @@ const GroceryListItem = (props) => {
 
   )
 }
-
-
 
 ReactDOM.render(<App />, document.getElementById('app'));
